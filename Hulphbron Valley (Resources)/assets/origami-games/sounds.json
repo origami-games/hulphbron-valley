@@ -1,0 +1,17 @@
+{
+    "hulphbron_valley.music.game": {
+        "sounds": [
+            {
+                "name": "origami-games:hulphbron_valley/music/game1",
+                "stream": true
+            }
+        ]
+    },
+    "hulphbron_valley.character.death": {
+        "sounds": [
+            {
+                "name": "origami-games:hulphbron_valley/character/death"
+            }
+        ]
+    }
+}

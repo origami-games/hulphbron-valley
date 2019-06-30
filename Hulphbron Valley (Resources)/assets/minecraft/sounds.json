@@ -1,0 +1,15 @@
+{
+    "block.stone.step": {
+        "replace": true,
+        "sounds": []
+    },
+    "music.game": {
+        "replace": true,
+        "sounds": [
+            {
+                "name": "origami-games:hulphbron_valley/music/game1",
+                "stream": true
+            }
+        ]
+    }
+}

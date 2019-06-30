@@ -1,0 +1,15 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "origami-games:hulphbron_valley/character/left"
+    },
+    "display": {
+        "head": {
+            "scale": [
+                3.0,
+                3.0,
+                3.0
+            ]
+        }
+    }
+}
