@@ -2,7 +2,7 @@ Hulphbron Valley
 ================
 
 ### Summary
-Hulphbron Valley is a survival and resource collecting game inspired by [Forager](https://store.steampowered.com/app/751780/Forager/). It takes place in a mostly peaceful, unharmed world, but holds dangerous, demonic powers.
+Hulphbron Valley is a 2D survival and resource management game made in Minecraft. It takes place a seemingly friendly, fertile world, but hides darker things within.
 
 ### Contributing
 - You can contribute ideas by opening an issue or pull request, or by messaging us at [our Discord](https://discord.io/artefact)
