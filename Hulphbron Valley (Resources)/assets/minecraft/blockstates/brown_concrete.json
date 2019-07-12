@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "": [
+            {
+                "model": "origami-games:hulphbron_valley/block/dirt"
+            },
+            {
+                "model": "origami-games:hulphbron_valley/block/dirt",
+                "y": 180
+            }
+        ]
+    }
+}

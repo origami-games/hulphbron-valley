@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "origami-games:hulphbron_valley/block/grass/light"
+    }
+}

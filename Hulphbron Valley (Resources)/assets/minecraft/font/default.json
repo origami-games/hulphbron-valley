@@ -4,7 +4,7 @@
             "type": "bitmap",
             "file": "origami-games:hulphbron_valley/gui/heart_full.png",
             "ascent": 0,
-            "height": 30,
+            "height": 20,
             "chars": [
                 "\uE0f1"
             ]
@@ -13,7 +13,7 @@
             "type": "bitmap",
             "file": "origami-games:hulphbron_valley/gui/heart_three_quarter.png",
             "ascent": 0,
-            "height": 30,
+            "height": 20,
             "chars": [
                 "\uE1f1"
             ]
@@ -22,7 +22,7 @@
             "type": "bitmap",
             "file": "origami-games:hulphbron_valley/gui/heart_half.png",
             "ascent": 0,
-            "height": 30,
+            "height": 20,
             "chars": [
                 "\uE2f1"
             ]
@@ -31,7 +31,7 @@
             "type": "bitmap",
             "file": "origami-games:hulphbron_valley/gui/heart_quarter.png",
             "ascent": 0,
-            "height": 30,
+            "height": 20,
             "chars": [
                 "\uE3f1"
             ]
@@ -40,7 +40,7 @@
             "type": "bitmap",
             "file": "origami-games:hulphbron_valley/gui/heart_empty.png",
             "ascent": 0,
-            "height": 30,
+            "height": 20,
             "chars": [
                 "\uE4f1"
             ]
@@ -49,7 +49,7 @@
             "type": "bitmap",
             "file": "origami-games:hulphbron_valley/gui/heart_revival.png",
             "ascent": 0,
-            "height": 30,
+            "height": 20,
             "chars": [
                 "\uE5f1"
             ]

@@ -3,11 +3,31 @@
         "replace": true,
         "sounds": []
     },
+    "block.ladder.step": {
+        "replace": true,
+        "sounds": []
+    },
+    "block.ladder.fall": {
+        "replace": true,
+        "sounds": []
+    },
+    "entity.generic.small_fall": {
+        "replace": true,
+        "sounds": []
+    },
+    "entity.generic.big_fall": {
+        "replace": true,
+        "sounds": []
+    },
     "music.game": {
         "replace": true,
         "sounds": [
             {
                 "name": "origami-games:hulphbron_valley/music/game1",
+                "stream": true
+            },
+            {
+                "name": "origami-games:hulphbron_valley/music/game2",
                 "stream": true
             }
         ]

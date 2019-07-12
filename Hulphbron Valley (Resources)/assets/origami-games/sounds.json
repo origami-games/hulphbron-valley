@@ -4,6 +4,10 @@
             {
                 "name": "origami-games:hulphbron_valley/music/game1",
                 "stream": true
+            },
+            {
+                "name": "origami-games:hulphbron_valley/music/game2",
+                "stream": true
             }
         ]
     },
@@ -11,6 +15,13 @@
         "sounds": [
             {
                 "name": "origami-games:hulphbron_valley/character/death"
+            }
+        ]
+    },
+    "hulphbron_valley.resources.pickup.heart": {
+        "sounds": [
+            {
+                "name": "origami-games:hulphbron_valley/resources/heart_pickup"
             }
         ]
     }

@@ -1,0 +1,15 @@
+{
+    "variants": {
+        "": [
+            {
+                "model": "origami-games:hulphbron_valley/block/grass/default"
+            },
+            {
+                "model": "origami-games:hulphbron_valley/block/grass/light"
+            },
+            {
+                "model": "origami-games:hulphbron_valley/block/grass/dark"
+            }
+        ]
+    }
+}

@@ -2,17 +2,21 @@
 #@s - all players
 #called by tick
 
+#right-click check
+tag @s remove hitbox_trigger
+execute if entity @s[scores={hitbox_trigger=1..}] run tag @s add hitbox_trigger
+
+#team
+team join players @s
+
 #join messages
 scoreboard players set @s[tag=!joined_once] join_check 1
 execute if entity @s[scores={join_check=1}] run function origami-games:hulphbron_valley/player/join
 scoreboard players reset @s join_check
 tag @s add joined_once
 
-#gamemode
-gamemode adventure @s[gamemode=survival]
-
 #enforced management
-execute unless entity @s[tag=free] run function origami-games:hulphbron_valley/player/management
+execute unless score active config matches 0 run function origami-games:hulphbron_valley/player/management
 
 #gui
 ## health
@@ -44,3 +48,6 @@ execute if score @s health_gui matches -1 if score @s revive matches 80 run boss
 execute if score @s health_gui matches -1 if score @s revive matches 60 run bossbar set origami-games:hulphbron_valley/gui/status name [{"text":"","color":"dark_red"},"\uE0f1\uE0f1\uE5f1\uE5f1\uE5f1"]
 execute if score @s health_gui matches -1 if score @s revive matches 40 run bossbar set origami-games:hulphbron_valley/gui/status name [{"text":"","color":"dark_red"},"\uE0f1\uE0f1\uE0f1\uE5f1\uE5f1"]
 execute if score @s health_gui matches -1 if score @s revive matches 20 run bossbar set origami-games:hulphbron_valley/gui/status name [{"text":"","color":"dark_red"},"\uE0f1\uE0f1\uE0f1\uE0f1\uE5f1"]
+
+#reset scores
+scoreboard players reset @s hitbox_trigger
